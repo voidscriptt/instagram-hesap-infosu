@@ -11,6 +11,7 @@ try:
     profile = instaloader.Profile.from_username(L.context, username)
 
     print(f"Kullanıcı Adı: {profile.username}")
+    print(f"Profil ID: {profile.userid}")
     print(f"Gönderi Sayısı: {profile.mediacount}")
     print(f"Takipçi Sayısı: {profile.followers}")
     print(f"Takip Ettiği Kişi Sayısı: {profile.followees}")
